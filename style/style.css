@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    width: 100%;
+    height: 740px;
+    background-image: url(../image/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 37px 0px 0px 20px;
+    width: 100%;
+    height: 896px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.21)), url(https://s3-alpha-sig.figma.com/img/f0dc/5461/b503eecb5af697457bcd32cf7e54a3fd?Expires=1663545600&Signature=Uiasdtorszk3WgajPewAzf~o06axLR6XdkJmwGEIZDtFw6I2ACkY1a4ZRaxoI5dB9I95F-d0ul2XHIZCxj69mtDTyGowor-KV~C~e~70tTru5uTFgoApAu4mZOn2FYrXfWCmVGcrHKtjPuhz7vU9u51Rjxz6j7aQX1SVxTeKua1TuWOJFP~1syYDUQimE8LFpdf8d7bExZ~iK19i0yXHea8hBwqEFbP6jPIjROSik8DXg~FIVocCG5XJzTsSTtr1dStB3aA50zAfyDxBDE3MpUcOnW7fDS4oSuCGD1OsLGgMN6lzFQWs0T0LU-2IpyAQ66~nfDfhzyRLgHaftgvODg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}*/
+
+.hero-section button {
+    display: none;
+}
+
