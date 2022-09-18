@@ -58,7 +58,6 @@
     font-weight: 700;
     line-height: 58px;
     letter-spacing: 0em;
-
 }
 
 .aboutme {
@@ -72,6 +71,7 @@
 }
 
 .profile button {
+    background-color: transparent;
     color: #404040;
     padding: 26px 62px;
     font-family: 'Lato';
@@ -79,7 +79,27 @@
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
+    border: 1px solid #404040;
+}
 
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.icons li {
+    display: flex;
+    font-size: 24px;
+    margin-right: 92px;
+}
+
+.icons a {
+    color: #404040;
+}
+
+.icons li + li {
+    margin-top: 29.5px;
 }
 
 /*end of hero-section*/
@@ -96,14 +116,14 @@
 }
 
 .image {
-    padding-top: 75px;
+    padding-top: 69px;
+    padding-bottom: 3.22px;
 }
 
-.image img {
+/*.image img {
     height: 636.7791748046875px;
     width: 505px;
-
-}
+}*/
 
 .details {
     width: 715px;
@@ -124,13 +144,54 @@
 }
 
 .details p {
-    padding-top: 13px;
+    margin-bottom: 13px;
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     color: #404040;
+}
+/*section two ends here*/
+
+.section-gallery {
+    background-color: #F2F2F2;
+}
+
+.gallery_text {
+    text-align: center;
+}
+
+.gallery_text h2 {
+    padding-top: 12px;
+    padding-bottom: 16px;
+    color: #404040;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;   
+}
+
+.gallery_text p {
+    color: #404040;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.gallery {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    padding-top: 40px;
 }
 
 /*.hero-section {
@@ -149,3 +210,152 @@
     display: none;
 }*/
 
+.view_button {
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.view_button button {
+    background-color: transparent;
+    padding: 27px 82px 26px 42px;
+    /*width: 186px;*/
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    border: 1px solid #404040;
+
+}
+
+.view_button img {
+    padding-left: 18px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 650px;
+    transform: translateY(-50%);
+}
+
+.section-client {
+    background-color: #F2F2F2;
+    padding-top: 56px;
+    
+}
+
+.our-clients {
+    text-align: center;
+}
+
+.our-clients h3 {
+    padding-bottom: 16px;
+    padding-top: 19px;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #404040;
+}
+
+/*.div-client {
+    padding-bottom: 58.1px;
+}*/
+
+.our-clients p {
+    padding-bottom: 24px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #404040;
+}
+
+.logo_client {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 58.1px;
+}
+
+.logo_1 {
+    align-self: center;
+}
+
+.logo_2 {
+    align-self: center;
+}
+
+.logo_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_3b {
+    padding-top: 21.83px;
+    align-self: flex-end;
+   
+}
+
+.section_form {
+    background-color: blue;
+}
+
+.contact_me {
+    text-align: center;
+    
+}
+
+.contact_me h2 {
+    padding-top: 30px;
+    
+}
+
+.contact_me p {
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.form_image {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_a {
+    background-color: bisque;
+    
+}
+
+.form_a input{
+    height: 60px;
+    width: 505px;
+    border: 1px solid #404040;
+    border-radius: 5px;
+
+}
+
+.form_a p{
+    padding-top: 40px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+
+}
+
+.name {
+    margin-left: 42px;
+}
+
+.email {
+    margin-left: 46px;
+}
+
+.subject {
+    margin-left: 26px;
+}
