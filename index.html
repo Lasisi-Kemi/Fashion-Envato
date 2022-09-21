@@ -31,7 +31,7 @@
             </nav>
             <div class="inner-section">
                 <div class="profile">
-                    <h1 class="self">Hello, I am Paul Amusan</h1>
+                    <h1 class="self">Hello, <br>I am Paul Amusan</h1>
                     <p class="aboutme">Paul Amusan is a young, energetic, and talented fashion designer who 
                         focuses on his men’s clothing line, Paul Amusan. His work draws 
                         inspiration from local Nigerian fabrics coupled with Japanese tailoring 
@@ -55,6 +55,9 @@
         </section>
         <section class="about-section">
             <div class="inner-section">
+                <div class="mobileviewabt">
+                    <h1>About Me</h1>
+                </div>
                 <div class="about_me">
                     <div class="image">
                         <img src="./image/about.png" alt="Paul Amusa">
@@ -94,31 +97,46 @@
                     <h2>Gallery</h2>
                     <p>Have a look at a collection of my recent works.</p>
                 </div>
+                <div class="slider">
+                    <div class="arrw">
+                        <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.09717 0L10 1.9975L3.81916 8.5L10 15.0025L8.09717 17L0 8.5L8.09717 0Z" fill="#404040"/>
+                        </svg>
+                    </div>
+                    <div class="slider-image">
+
+                    </div>
+                    <div class="arrw">
+                        <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.90283 0L0 1.9975L6.18084 8.5L0 15.0025L1.90283 17L10 8.5L1.90283 0Z" fill="#404040"/>
+                        </svg>
+                    </div>       
+                </div>
                 <div class="gallery">
                     <div class="gallery-image">
-                        <img src="./image/pic1.png" alt="client1">
+                        <img src="./image/pic1.png" alt="client1" class="slide">
                     </div>
                     <div class="gallery-image">
-                        <img src="./image/pic2.png" alt="client2">
+                        <img src="./image/pic2.png" alt="client2" class="slide">
                     </div>
                     <div class="gallery-image">
-                        <img src="./image/pic3.png" alt="client3">
+                        <img src="./image/pic3.png" alt="client3" class="slide">
                     </div>
                     <div class="gallery-image">
-                        <img src="./image/pic4.png" alt="client4">
+                        <img src="./image/pic4.png" alt="client4" class="slide">
                     </div>
                     <div class="gallery-image">
-                        <img src="./image/pic6.png" alt="client5">
+                        <img src="./image/pic6.png" alt="client5" class="slide">
                     </div>
                     <div class="gallery-image">
-                        <img src="./image/pic7.png" alt="client6">
+                        <img src="./image/pic7.png" alt="client6" class="slide">
                     </div>
                 </div>
                 <div class="view_button">
-                    <button>View all</button>
-                    <p class="arrow"><svg width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button>View all
+                    <span class="arrow"><svg width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M36.3536 4.35355C36.5488 4.15829 36.5488 3.84171 36.3536 3.64644L33.1716 0.464463C32.9763 0.269201 32.6597 0.269201 32.4645 0.464463C32.2692 0.659725 32.2692 0.976308 32.4645 1.17157L35.2929 4L32.4645 6.82842C32.2692 7.02369 32.2692 7.34027 32.4645 7.53553C32.6597 7.73079 32.9763 7.73079 33.1716 7.53553L36.3536 4.35355ZM4.37114e-08 4.5L36 4.5L36 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="#404040"/>
-                        </svg></p>
+                    </svg></span></button>
                 </div>
             </div>
         </section>
@@ -139,37 +157,42 @@
                         <div class="logo_3">
                             <img src="./image/vector-a.png" alt="">
                         </div>
-                        <!--<div class="logo_3">
-                            <p><img src="./image/Vector.png" alt="logo1"></p>
-                            <p class="logo_3b"><img src="./image/Vector1.png" alt="logo1b"></p>
-                        </div>-->
                     </div>
                 </div>
             </div>
         </section>
         <section class="section_form">
             <div class="inner-section">
-              <div class="form-section">
-                <div class="contact_me">
-                    <h2>Contact Me</h2>
-                    <p>Need anything? Kindy fill the form below</p>
-                </div>
-                <div class="form_image">
-                    <div>
-                        <img src="./image/aboutform.png">
+                <div class="form-section">
+                    <div class="contact_me">
+                        <h2>Contact Me</h2>
+                        <p>Need anything? Kindy fill the form below</p>
                     </div>
-                    <div class="form_a">
-                        <p>Name<input type="text" name="" required="required" class="name"></p>
-                        <p>Email<input type="email" name="" required="required" class="email"></p>
-                        <p>Subject<input type="text" name="" required="required" class="subject"></p>
-                        <div class="text_area">
-                            <p>Message</p>
-                            <textarea name="message"></textarea>
+                    <div class="form_image">
+                        <div class="form-img">
+                            <img src="./image/aboutform.png">
                         </div>
-                        <button>Send Message</button>
+                        <div class="form_a">
+                            <div class="form_b">
+                                <p>Name</p>
+                                <input type="text" name="" required="required" class="name">
+                            </div>
+                            <div class="form_b">
+                                <p>Email</p>
+                                <input type="email" name="" required="required" class="email">
+                            </div>
+                            <div class="form_b">
+                                <p>Subject</p>
+                                <input type="text" name="" required="required" class="subject">
+                            </div>
+                            <div class="text_area">
+                                <p>Message</p>
+                                <textarea name="message"></textarea>
+                            </div>
+                            <button>Send Message</button>
+                        </div>
                     </div>
-                </div>
-              </div>  
+                </div>  
             </div>
         </section>
         <footer>
